@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+
+    .navbar {
+        gap: 15px;
+    }
+    
+    .fondo {
+        height: 100%;
+        background-color: black;
+    }
+    .listdesodernadas {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+/*         right: ; */
+    }
+}
