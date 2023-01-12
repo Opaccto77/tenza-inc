@@ -74,6 +74,14 @@
     width: 100%;
 }
 
+.phone-wallpapers {
+    display: none;
+}
+
+.two-wallpapers {
+    display: none;
+}
+
 .transition {
     animation-name: fondo;
     animation-duration: 2s;
@@ -93,4 +101,3 @@
 .menu-label {
     display: none;
 }
-

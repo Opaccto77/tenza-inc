@@ -1,17 +1,76 @@
 @media (max-width: 992px) {
-
-    .navbar {
-        gap: 15px;
-    }
     
-    .fondo {
-        height: 100%;
-        background-color: black;
-    }
-    .listdesodernadas {
+    .listas {
         position: absolute;
-        top: 65px;
-        left: 5%;
-/*         right: ; */
+        top: 75px;
+        right: 3%;
+        background-color: var(--fondo);
+        opacity: 95%;
+        border: 2px solid var(--prueba);
+        border-radius: 15px;
+        height: 400px;
+        width: 20%;
+        padding: 25px;
+        z-index: 1;
+        display: none;
+/*         text-align: center;*/
+    }
+
+    .listdesordenada {
+        border: 0px;
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .listdesordenada a {
+        border: none;
+        color: var(--bordes);
+    }
+
+    .usuario {
+        display: none;
+    }
+
+    .fondo {
+        height: 50%;
+    }
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+        margin-right: 15px;
+        height: 35px;
+        width: 38px;
+    }
+
+    #menu-toggle:checked + #menu-hambur {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 556px) {
+    .fondo {
+        display: none;
+    }
+
+    .two-wallpapers {
+        display: flex;
+        height: 100vh;
+        width: 100vh;
+        margin-top: 65px;
+        position: absolute;
+    }
+
+    .phone-wallpapers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30%;
+        margin-left: 20%;
+        height: 50vh;
+        width: 50vh;
+        position: absolute;
     }
 }
