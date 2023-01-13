@@ -51,7 +51,7 @@
 }
 
 @media (min-width: 556px) {
-    .fondo {
+/*     .fondo {
         display: none;
     }
 
@@ -72,5 +72,5 @@
         height: 50vh;
         width: 50vh;
         position: absolute;
-    }
+    } */
 }
