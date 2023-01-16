@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     
     .listas {
         position: absolute;
@@ -13,7 +13,7 @@
         padding: 25px;
         z-index: 1;
         display: none;
-/*         text-align: center;*/
+         text-align: center;
     }
 
     .listdesordenada {
@@ -47,30 +47,27 @@
     #menu-toggle:checked + #menu-hambur {
         display: flex;
     }
+ 
+} */
 
-}
-
-@media (min-width: 556px) {
-/*     .fondo {
+/* @media (min-width: 556px) {
+    #navbar {
+        height: 10vh;
+    }
+    .logo {
+        height: 100px;
+    }
+    .fondo {
         display: none;
     }
-
-    .two-wallpapers {
-        display: flex;
-        height: 100vh;
-        width: 100vh;
-        margin-top: 65px;
-        position: absolute;
+    .menu-label {
+        height: 100em;
     }
 
-    .phone-wallpapers {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30%;
-        margin-left: 20%;
-        height: 50vh;
-        width: 50vh;
-        position: absolute;
-    } */
-}
+    body {
+        background-image: url(/imagenes/logo.png);
+        height: 60vh;
+        width: 100%;
+        padding-top: 70px;
+    }
+} */

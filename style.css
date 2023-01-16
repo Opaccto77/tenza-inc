@@ -65,22 +65,15 @@
     margin: 15px;
 }
 
-/* #hero {
-
-} */
+/*  #hero {
+    
+}  */
 
 .fondo {
     margin-top: 68px;
     width: 100%;
 }
 
-.phone-wallpapers {
-    display: none;
-}
-
-.two-wallpapers {
-    display: none;
-}
 
 .transition {
     animation-name: fondo;
@@ -96,6 +89,42 @@
         transform: translateX(100%);
     }
 }
+
+.btn-wsp {
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 15px;
+    z-index: 100;
+    bottom: 0;
+    left: 5px;
+}
+
+.w {
+    height: 50px;
+    width: 50px;
+    z-index: 100;
+    border: 2px solid var(--bordes);
+    border-radius: 35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.facebook {
+    background-color: #6885c4;
+} 
+
+.instagram {
+    background-color: #c574ad;
+}
+
+.wsp {
+    background-color: #6bec7c;
+}
+
+/* MENU HAMBURGUESA */
 
 #menu-toggle,
 .menu-label {
