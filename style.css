@@ -13,9 +13,15 @@
     font-style: none;
 }
 
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 43%, rgba(51,255,215,1) 100%);
+}
+
 #navbar {
-    background: rgb(51,255,215);
-    background: linear-gradient(90deg, rgba(51,255,215,1) 10%, rgba(252,226,201,1) 75%);
+    /* background: rgb(51,255,215);
+    background: linear-gradient(90deg, rgba(51,255,215,1) 10%, rgba(252,226,201,1) 75%); */
+    background-color: var(--fondo);
     height: 65px;
     width: 100%;
     display: flex;
@@ -94,11 +100,72 @@
     }
 }
 
+/* FORMULARIO DE REGISTRO PARA USUARIOS */
+
+#form-registro {
+    width: 400px;
+    background-color: #4e06de;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 5px;
+    font-family: 'calibri';
+    color: var(--white);
+    box-shadow: 7px 13px 37px #000;
+}
+
+#form-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control {
+    width: 100%;
+    background: #4e06de;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 2px solid #bd9bff;
+    font-family: 'calibri';
+    font-size: 16px;
+    color: var(--white);
+}
+
+#form-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#form-registro a {
+    color: var(--white);
+    font-style: none;
+}
+
+#form-registro a:hover {
+    color: var(--white);
+    font-style: underline;
+}
+
+#form-registro .boton {
+    width: 100%;
+    background: #bd9bff;
+    border: none;
+    padding: 12px;
+    color: var(--white);
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/* REDES SOCIALES Y CONTACTOS */
+
 .btn-wsp {
     position: fixed;
     display: flex;
     align-items: flex-end;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
     margin-right: 15px;
     z-index: 100;
     bottom: 0;
@@ -135,16 +202,21 @@
     display: none;
 }
 
+/* BENEFICIOS */
+
 #half {
 
 }
 
 .beneficios {
     display: block;
+    font-family: 'aboreto';
+    margin-top: 150px;
 }
 
 .beneficios h3 {
     padding: 50px;
+    margin-bottom: 24px;
     font-size: 100px;
     color: #000000;
     display: flex;
@@ -155,13 +227,29 @@
 .beneficios p {
     color: #000000;
     font-size: 40px;
-/*      height: 50px; */
-    width: 500px;
-    border: 1px solid var(--bordes);
+    width: 100%;
+    padding: 40px 0;
+/*     margin: 50px; */
+/*     border: 1px solid var(--bordes); */
     border-radius: 5px;
-    margin: 50px;
-    padding: 15px;
-    display: flex;
-    align-items: flex-start;
 }
 
+.card {
+    display: flex;
+    background: #bd9bff;
+/*     opacity: 30%;
+ */    text-align: center;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer p {
+    padding: 50px;
+    margin: 100px 0 0 0;
+    background-color: var(--bordes);
+    color: var(--white);
+    text-align: center;
+    font-family: 'aboreto';
+    font-weight: 800;
+}
