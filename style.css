@@ -100,64 +100,6 @@ body {
     }
 }
 
-/* FORMULARIO DE REGISTRO PARA USUARIOS */
-
-#form-registro {
-    width: 400px;
-    background-color: #4e06de;
-    padding: 30px;
-    margin: auto;
-    margin-top: 150px;
-    border-radius: 5px;
-    font-family: 'calibri';
-    color: var(--white);
-    box-shadow: 7px 13px 37px #000;
-}
-
-#form-registro h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.control {
-    width: 100%;
-    background: #4e06de;
-    padding: 10px 0;
-    border-radius: 5px;
-    margin-bottom: 16px;
-    border: 2px solid #bd9bff;
-    font-family: 'calibri';
-    font-size: 16px;
-    color: var(--white);
-}
-
-#form-registro p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
-
-#form-registro a {
-    color: var(--white);
-    font-style: none;
-}
-
-#form-registro a:hover {
-    color: var(--white);
-    font-style: underline;
-}
-
-#form-registro .boton {
-    width: 100%;
-    background: #bd9bff;
-    border: none;
-    padding: 12px;
-    color: var(--white);
-    margin: 16px 0;
-    font-size: 16px;
-}
-
 /* REDES SOCIALES Y CONTACTOS */
 
 .btn-wsp {
@@ -218,6 +160,7 @@ body {
     padding: 50px;
     margin-bottom: 24px;
     font-size: 100px;
+    font-weight: 800;
     color: #000000;
     display: flex;
     text-align: center;
@@ -236,19 +179,74 @@ body {
 
 .card {
     display: flex;
-    background: #bd9bff;
-/*     opacity: 30%;
- */    text-align: center;
+    text-align: center;
 }
 
+/* FORMULARIO DE REGISTRO PARA USUARIOS */
+
+#form-registro {
+    width: 400px;
+    background-color: #4e06de;
+    padding: 30px;
+    margin: auto;
+    margin-top: 250px;
+    border-radius: 5px;
+    font-family: 'calibri';
+    color: var(--white);
+    box-shadow: 7px 13px 37px #000;
+}
+
+#form-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control {
+    width: 100%;
+    background: #4e06de;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 2px solid #bd9bff;
+    font-family: 'calibri';
+    font-size: 16px;
+    color: var(--white);
+}
+
+#form-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#form-registro a {
+    color: var(--white);
+    font-style: none;
+}
+
+#form-registro a:hover {
+    color: var(--white);
+    font-style: underline;
+}
+
+#form-registro .boton {
+    width: 100%;
+    background: #bd9bff;
+    border: none;
+    padding: 12px;
+    color: var(--white);
+    margin: 16px 0;
+    font-size: 16px;
+}
 
 /* PIE DE PÁGINA */
 
 footer p {
-    padding: 50px;
-    margin: 100px 0 0 0;
-    background-color: var(--bordes);
-    color: var(--white);
+    padding: 20px;
+    margin: 90px 0 0 0;
+/*     background-color: var(--white); */
+    color: var(--bordes);
     text-align: center;
     font-family: 'aboreto';
     font-weight: 800;

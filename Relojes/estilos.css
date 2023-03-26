@@ -63,19 +63,36 @@
     display: none;
 }
 
-    body {
-        background-image: url(/Relojes/pic-relojes/fondodolar.jpeg);
-        background-size: 100%;
+    .contenedor {
+        background-color: #5F2F5F;
+        width: 80%;
+        padding: 68px;
+        margin: 100px 50px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 25px 25px 36px #000;
     }
-    
+
+    .wtc-png {
+        height: 250px;
+        width: 250px;
+        margin-top: 100px;
+        
+    }
+
+
     #buy {
         top: 70px;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 43%, rgba(95,47,95,1) 100%);
     }
     
     
     .conteiner {
         margin-top: 100px;
         margin-left: 20px;
+        padding-bottom: 15px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -91,4 +108,4 @@
         padding: 3vh 100vh 3vh 3vh;
         background-color: #000000;
         border-radius: 5px;
-    }
+    } 
